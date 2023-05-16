@@ -34,7 +34,10 @@ extra:
       link: https://twitter.com/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/
-
+nav:
+    - 'index.md'
+    - 'team.md'
+    - 'resources.md'
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -48,6 +51,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
