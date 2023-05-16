@@ -36,8 +36,10 @@ extra:
       link: https://www.linkedin.com/in/
 nav:
     - 'index.md'
+    - 'research.md'
     - 'team.md'
     - 'resources.md'
+    - 'contact.md'
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
