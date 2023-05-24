@@ -60,3 +60,12 @@ markdown_extensions:
 
 copyright: |
   &copy; 2023 <a href="https://github.com/anw1998"  target="_blank" rel="noopener">An Ni Wu</a>
+plugins:
+    - encryptcontent:
+        title_prefix: ''
+        summary: 'Please enter your password to access this website.'
+        placeholder: 'Enter password here'
+        encryption_info_message: ''
+        use_secret: 'MKDOCS_PASSWORD'
+        remember_password: True
+        default_expire_delay: 1
