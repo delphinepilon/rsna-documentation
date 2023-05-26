@@ -22,5 +22,5 @@ jobs:
       - run: pip install pillow cairosvg
       - run: pip install mkdocs-encryptcontent-plugin
       - run: mkdocs gh-deploy --force
-        # env: 
-        #   MKDOCS_PASSWORD: ${{ secrets.MKDOCS_PASSWORD }}
+        env: 
+          MKDOCS_PASSWORD: ${{ secrets.MKDOCS_PASSWORD }}
