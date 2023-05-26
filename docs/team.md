@@ -17,4 +17,3 @@
   ![Image title](https://dummyimage.com/600x400/){ width="300" }
   <figcaption>First Last, Title</figcaption>
 </figure>
-Any modif
